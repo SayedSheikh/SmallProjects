@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo img {
+  width: 33px;
+  padding: 1px 7px;
+  position: relative;
+  top: 2px;
+}
+nav {
+  height: 65px;
+  background-color: black;
+  color: white;
+  font-family: "Potta One", system-ui;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 70%;
+  /* background-color: red; */
+  margin: auto;
+  font-family: "Roboto", serif;
+  font-weight: bold;
+  margin-top: 35px;
+}
+li span {
+  font-weight: 400;
+}
+li {
+  margin: 60px 0;
+}
