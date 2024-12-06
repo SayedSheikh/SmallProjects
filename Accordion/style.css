@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 60vh;
+  width: 70vw;
+  /* border: 2px solid black; */
+  margin: auto;
+  margin-top: 50px;
+}
+.accordion {
+  height: 35px;
+  padding: 10px;
+  line-height: 35px;
+  color: #444;
+  background-color: #eee;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.accordion:hover {
+  background-color: #ccc;
+}
+.panel {
+  /* margin: 5px 0; */
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  transition: padding 0.3s ease-out;
+}
+.accordion::after {
+  content: "+";
+  float: right;
+  font-size: 30px;
+}
+.active {
+  background-color: #ccc;
+}
+.active::after {
+  content: "-";
+  float: right;
+  font-size: 44px;
+}
