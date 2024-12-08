@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="btns">
+        <button class="tabs active" onclick="openCity(event,'Dhaka')">
+          Dhaka
+        </button>
+        <button class="tabs" onclick="openCity(event,'khulna')">khulna</button>
+        <button class="tabs" onclick="openCity(event,'chandpur')">
+          chandpur
+        </button>
+      </div>
+
+      <div id="Dhaka" class="tabcontent" style="display: block">
+        <h3>Dhaka</h3>
+        <p>London is the capital city of Bangladesh.</p>
+      </div>
+      <div id="khulna" class="tabcontent">
+        <h3>khulna</h3>
+        <p>London is one of the cities of Bangladesh.</p>
+      </div>
+      <div id="chandpur" class="tabcontent">
+        <h3>chandpur</h3>
+        <p>London is a small city of Bangladesh</p>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
