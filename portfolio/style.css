@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: inherit;
+  background-color: #f1f1f1;
+}
+.btns button {
+  height: 80px;
+  background-color: inherit;
+  border: none;
+  transition: all 0.4s ease-in-out;
+}
+.btns button:hover {
+  background-color: #ccc;
+}
+.container {
+  height: 60vh;
+  width: 70vw;
+  margin: auto;
+  margin-top: 10vh;
+  /* background-color: red; */
+  display: flex;
+  border: 2px solid #ccc;
+}
+.tabinfo {
+  display: none;
+  padding: 16px;
+  background-color: #fff;
+  /* transition: display 3s ease-in-out; */
+}
+.btns button.active {
+  background-color: #ccc;
+}

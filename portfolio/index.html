@@ -4,6 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="btns">
+        <button class="tabs active" onclick="openTab(event,'dhaka')">
+          dhaka
+        </button>
+        <button class="tabs" onclick="openTab(event,'comilla')">comilla</button>
+        <button class="tabs" onclick="openTab(event,'chandpur')">
+          chandpur
+        </button>
+      </div>
+      <div class="allTabInfo">
+        <div id="dhaka" class="tabinfo" style="display: block">
+          <h1>dhaka</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat
+            reprehenderit tempore, ex ad optio et! Excepturi a asperiores dolor
+            voluptate facilis, assumenda similique veritatis perspiciatis
+            consequatur nam maiores explicabo!
+          </p>
+        </div>
+        <div id="comilla" class="tabinfo">
+          <h1>comilla</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat
+            reprehenderit tempore, ex ad optio et! Excepturi a asperiores dolor
+            voluptate facilis, assumenda similique veritatis perspiciatis
+            consequatur nam maiores explicabo!
+          </p>
+        </div>
+        <div id="chandpur" class="tabinfo">
+          <h1>chandpur</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat
+            reprehenderit tempore, ex ad optio et! Excepturi a asperiores dolor
+            voluptate facilis, assumenda similique veritatis perspiciatis
+            consequatur nam maiores explicabo!
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
 </html>
